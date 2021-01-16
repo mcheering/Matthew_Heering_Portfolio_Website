@@ -3,25 +3,284 @@
 
 <head>
       <meta charset="UTF-8">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="author" content="Matthew Heering">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-      <link rel="stylesheet" href="styles.css">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300&family=Open+Sans&family=Roboto&display=swap"
+            rel="stylesheet">
+      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous" />
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
-      <nav>
-            <div class="nav-wrapper" id="navbar" style="background-color: #425667;">
-                  <a href="#" class="brand-logo center" id="navbarLogo">Heering Design</a>
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
+      <nav class="white" role="navigation">
+            <div class="nav-wrapper container">
+                  <a id="logo-container" href="#" class="brand-logo"><img src="assets/logo.svg" style="height:40px;"
+                              id="imageLogo"></a>
+
+
+                  <ul class="hoverable right hide-on-med-and-down">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
                   </ul>
+
+                  <ul id="nav-mobile" class="sidenav">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                  </ul>
+                  <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
       </nav>
 
+      <div id="index-banner" class="parallax-container">
+            <div class="section no-pad-bot">
+                  <div class="container">
+                        <br><br>
+                        <h1 class="header center teal-text text-lighten-2">Matthew Heering</h1>
+                        <div class="row center">
+                              <h5 class="header col s12 light">Providing modern mobile first full-stack web development.
+                              </h5>
+                        </div>
+                        <div class="row center">
+                              <a href="#about" id="download-button"
+                                    class="btn-large waves-effect waves-light teal lighten-1 hoverable">More Info <i
+                                          class="fas fa-info-circle"></i></a>
+                        </div>
+                        <br><br>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                  </div>
+            </div>
+            <div class="parallax"><img src="assets/tools.jpg" alt="Unsplashed background img 1"
+                        styles="background-size: 100%;"></div>
+      </div>
+
+
+      <div class="container">
+
+            <div class="section">
+
+                  <!--   Icon Section   -->
+                  <a id="about"></a>
+                  <div class="row">
+                        <div class="col s12 m4">
+                              <div class="icon-block">
+                                    <h2 class="center teal-text"><i class="material-icons">laptop_mac</i></h2>
+                                    <h5 class="center">Web Developer</h5>
+
+                                    <p class="light">I enjoy completing projects from the ground up, making your designs
+                                          a reality on the web.</p>
+                                    <h5 class="center">Languages I speak</h5>
+
+                                    <p class="light">HTML5, CSS3, Sass, Javascript.</p>
+                                    <h5 class="center">Dev Tools</h5>
+
+                                    <ul class="light center">
+                                          <li>Bootstrap</li>
+                                          <li>Github</li>
+                                          <li>Gitlab</li>
+                                          <li>Materialize CSS</li>
+                                          <li>Terminal</li>
+                                          <li>VSCode</li>
+                                    </ul>
+                              </div>
+                        </div>
+
+                        <div class="col s12 m4">
+                              <div class="icon-block">
+                                    <h2 class="center teal-text"><i class="material-icons">code</i></h2>
+                                    <h5 class="center">Software Engineer</h5>
+                                    <p class="light">I can build secure server side applications that meet your needs.
+                                    </p>
+                                    <h5 class="center">Technologies I use</h5>
+                                    <p class="light">Node.js, Express.js, MySQL, MongoDB, Swift</p>
+                                    <h5 class="center">Dev Tools</h5>
+                                    <ul class="light center">
+                                          <li>Xcode</li>
+                                          <li>Sequelize & Mongoose</li>
+                                          <li>Database Architecting</li>
+                                          <li>Application Design</li>
+                                    </ul>
+                              </div>
+                        </div>
+
+                        <div class="col s12 m4">
+                              <div class="icon-block">
+                                    <h2 class="center teal-text"><i class="material-icons">people_outline</i></h2>
+                                    <h5 class="center">Easy to work with</h5>
+
+                                    <p class="light">I
+                                          have developed strong teamwork and effective communication skills from
+                                          working
+                                          in IT and secondary education for a number of years. I respond well
+                                          to feedback and will work to
+                                          answer any question a member of your team has about a project we are
+                                          collaborating
+                                          on. </p>
+                              </div>
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+
+
+      <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                  <div class="container">
+                        <div class="row center">
+                              <h5 class="header col s12 light">Check out some projects I've completed.</h5>
+                        </div>
+                  </div>
+            </div>
+            <div class="parallax"><img src="assets/teamwork.jpg" alt="image showing teamwork"
+                        styles="background-size: 100%;" id="darkenOverlay"></div>
+      </div>
+
+      <div class="container">
+            <div class="section">
+                  <a id="projects"></a>
+                  <div class="row">
+                        <div class="col s12 center">
+                              <h3><i class="mdi-content-send brown-text"></i></h3>
+                              <h4>Projects</h4>
+                              <div style="display: flex; justify-content: space-between;" id="projects">
+                                    <div class="card hover">
+                                          <div class="card-image waves-effect waves-block waves-light">
+                                                <img class="activator" src="assets/cooking with sass.jpg">
+                                          </div>
+                                          <div class="card-content">
+                                                <span class="card-title activator grey-text text-darken-4">Cooking With
+                                                      Sass<i class="material-icons right">more_vert</i></span>
+                                          </div>
+                                          <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Description<i
+                                                            class="material-icons right">close</i></span>
+                                                <p>This is a web app that uses the YouTube and Edamam API to return
+                                                      ingredients, a link to a recipe, and a video that shows how to
+                                                      make the dish.</p>
+                                                <a class="waves-effect waves-light btn"
+                                                      href="https://audreymking.github.io/Recipe-Project/">Cooking With
+                                                      Sass</a>
+                                          </div>
+                                    </div>
+                                    <div class="card">
+                                          <div class="card-image waves-effect waves-block waves-light">
+                                                <img class="activator" src="assets/weathermap.jpg">
+                                          </div>
+                                          <div class="card-content">
+                                                <span class="card-title activator grey-text text-darken-4">Weather
+                                                      Dashboard<i class="material-icons right">more_vert</i></span>
+                                          </div>
+                                          <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Description<i
+                                                            class="material-icons right">close</i></span>
+                                                <p>This web app uses the openweathermap API to provide current weather
+                                                      and a 5 day forecast to the user.</p>
+                                                <a class="waves-effect waves-light btn"
+                                                      href="https://mcheering.github.io/Weather-Dashboard/">Weather
+                                                      Dashboard</a>
+                                          </div>
+                                    </div>
+                                    <div class="card">
+                                          <div class="card-image waves-effect waves-block waves-light">
+                                                <img class="activator" src="assets/Code Quiz.jpg">
+                                          </div>
+                                          <div class="card-content">
+                                                <span class="card-title activator grey-text text-darken-4">Coding Quiz<i
+                                                            class="material-icons right">more_vert</i></span>
+                                          </div>
+                                          <div class="card-reveal">
+                                                <span class="card-title grey-text text-darken-4">Description<i
+                                                            class="material-icons right">close</i></span>
+                                                <p>The goal of this project was to make a web based quiz that generates
+                                                      a score based on how much time is left, and correct answers. The
+                                                      users score is penalized by a constant for each question plus a
+                                                      factor of the time remaining. </p>
+                                                <a class="waves-effect waves-light btn"
+                                                      href="https://mcheering.github.io/Code-Quiz/">Coding Quiz</a>
+                                          </div>
+                                    </div>
+
+                              </div>
+
+                        </div>
+                  </div>
+
+            </div>
+      </div>
+
+
+      <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                  <div class="container">
+                        <div class="row center">
+                              <h5 class="header col s12 light">Check out my projects on github. </h5>
+                        </div>
+                        <div class="row center">
+                              <a href="https://github.com/mcheering" id="download-button"
+                                    class="btn-large waves-effect waves-light teal lighten-1 hoverable">Github <i
+                                          class="fab fa-github"></i></a>
+                        </div>
+                        <br><br>
+                  </div>
+            </div>
+            <div class="parallax"><img src="assets/planning.jpg" alt="whiteoard image with planning"
+                        styles="background-size: 100%;" id="darkenOverlay"></div>
+      </div>
+
+      <footer class="page-footer teal">
+            <div class="container">
+                  <div class="row">
+                        <div class="col l6 s12">
+                              <a id="contact"></a>
+                              <h5 class="white-text">Contact Me</h5>
+                              <p class="grey-text text-lighten-4">I'm a freelance web developer from the St. Louis
+                                    Region in Missouri looking to help you on your next project. </p>
+
+
+                        </div>
+
+                        <div class="right col l3 s12">
+                              <h5 class="white-text">Connect</h5>
+                              <ul>
+                                    <li><a class="white-text"
+                                                href="https://www.linkedin.com/in/matthew-heering-70525998/">LinkedIn
+                                          </a><i class="fab fa-linkedin"></i>
+                                    </li>
+                                    <li><a class="white-text" href="#!">Resume </a><i class="far fa-file"></i></li>
+                                    <li><a class="white-text" href="https://twitter.com/matthew_heering">Twitter </a><i
+                                                class="fab fa-twitter"></i></li>
+                                    <li><a class="white-text"
+                                                href="https://www.instagram.com/matthew.heering/">Instagram </a><i
+                                                class="fab fa-instagram"></i>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+            </div>
+            <div class="footer-copyright">
+                  <div class="container">
+                        Made by Matthew Heering
+                  </div>
+            </div>
+      </footer>
+
+
+      <!--  Scripts-->
+      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="js/materialize.js"></script>
+      <script src="js/init.js"></script>
+
 </body>
 
 </html>

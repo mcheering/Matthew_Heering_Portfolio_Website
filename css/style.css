@@ -1,0 +1,110 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+h1, h4, h5 {
+  font-family: 'Fraunces', serif;
+}
+
+p, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+.bannerTextBg{
+  background-color: rgba(0, 0, 0, 0.637);
+  border-radius: 3px;
+  padding: 5rem 0;
+}
+
+#darkenOverlay {
+  filter: brightness(0.4);
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 2560px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  #imageLogo{
+    margin: 0.8rem 0 0 0;
+  }
+    #projects{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width : 400px) {
+  #imageLogo{
+    margin: auto;
+  }
+  #projects{
+    display: flex;
+    justify-content: space-between !important;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .card {
+    margin: 2rem auto;
+  }
+}
+
+@media only screen and (max-width : 846px) {
+  #index-banner .section {
+    top: 0;
+  }
+  #imageLogo{
+    margin: 0.6rem 0 0 0;
+  }
+      #projects{
+    display: flex;
+    justify-content: space-between !important;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .card {
+    margin: 2rem auto;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
