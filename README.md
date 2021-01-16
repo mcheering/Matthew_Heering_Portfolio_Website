@@ -8,7 +8,7 @@ This repo is for my online portfolio showcasing some projects I have worked on.
 
 <h4>Landing</h4>
 <p>When you land on my site, you will see this,</p>
-<img src="assets/portfolio_1.png>"style="width: 300px">
+<img src="assets/portfolio_1.png"style="width: 300px">
 <p>You can scroll, press the hamburger icon on the top left, or swipe from left to right to open a menu and use the quicklinks that take you to specific sections of the page. </p>
 
 <h4>About</h4>
