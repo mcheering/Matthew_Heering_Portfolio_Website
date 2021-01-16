@@ -2,6 +2,7 @@
 <html>
 
 <head>
+      <title>Matthew Heering Portfolio</title>
       <meta charset="UTF-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
       <meta name="author" content="Matthew Heering">
@@ -24,7 +25,7 @@
       <nav class="white" role="navigation">
             <div class="nav-wrapper container">
                   <a id="logo-container" href="#" class="brand-logo"><img src="assets/logo.svg" style="height:40px;"
-                              id="imageLogo"></a>
+                              id="imageLogo" alt="logo"></a>
 
 
                   <ul class="hoverable right hide-on-med-and-down">
@@ -146,71 +147,89 @@
                         styles="background-size: 100%;" id="darkenOverlay"></div>
       </div>
 
-      <div class="container">
+      <div class="containe">
             <div class="section">
                   <a id="projects"></a>
                   <div class="row">
-                        <div class="col s12 center">
+                        <div class="col">
                               <h3><i class="mdi-content-send brown-text"></i></h3>
-                              <h4>Projects</h4>
-                              <div style="display: flex; justify-content: space-between;" id="projects">
-                                    <div class="card hover">
-                                          <div class="card-image waves-effect waves-block waves-light">
-                                                <img class="activator" src="assets/cooking with sass.jpg">
-                                          </div>
-                                          <div class="card-content">
-                                                <span class="card-title activator grey-text text-darken-4">Cooking With
-                                                      Sass<i class="material-icons right">more_vert</i></span>
-                                          </div>
-                                          <div class="card-reveal">
-                                                <span class="card-title grey-text text-darken-4">Description<i
-                                                            class="material-icons right">close</i></span>
-                                                <p>This is a web app that uses the YouTube and Edamam API to return
-                                                      ingredients, a link to a recipe, and a video that shows how to
-                                                      make the dish.</p>
-                                                <a class="waves-effect waves-light btn"
-                                                      href="https://audreymking.github.io/Recipe-Project/">Cooking With
-                                                      Sass</a>
-                                          </div>
-                                    </div>
-                                    <div class="card">
-                                          <div class="card-image waves-effect waves-block waves-light">
-                                                <img class="activator" src="assets/weathermap.jpg">
-                                          </div>
-                                          <div class="card-content">
-                                                <span class="card-title activator grey-text text-darken-4">Weather
-                                                      Dashboard<i class="material-icons right">more_vert</i></span>
-                                          </div>
-                                          <div class="card-reveal">
-                                                <span class="card-title grey-text text-darken-4">Description<i
-                                                            class="material-icons right">close</i></span>
-                                                <p>This web app uses the openweathermap API to provide current weather
-                                                      and a 5 day forecast to the user.</p>
-                                                <a class="waves-effect waves-light btn"
-                                                      href="https://mcheering.github.io/Weather-Dashboard/">Weather
-                                                      Dashboard</a>
+                              <h4 class="center">Projects</h4>
+                              <div class="row projectCards">
+                                    <div class="col  s9 m4 l3 cardPosition">
+                                          <div class="card  ">
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                      <img class="activator" src="assets/cooking_with_sass.jpg"
+                                                            alt="cooking with sass thumbnail">
+                                                </div>
+                                                <div class="card-content">
+                                                      <span class="card-title activator grey-text text-darken-4">Cooking
+                                                            With
+                                                            Sass<i class="material-icons right">more_vert</i></span>
+                                                </div>
+                                                <div class="card-reveal">
+                                                      <span class="card-title grey-text text-darken-4">Description<i
+                                                                  class="material-icons right">close</i></span>
+                                                      <p>This is a web app that uses the YouTube and Edamam API to
+                                                            return
+                                                            ingredients, a link to a recipe, and a video that shows how
+                                                            to
+                                                            make the dish.</p>
+                                                      <a class="waves-effect waves-light btn"
+                                                            href="https://audreymking.github.io/Recipe-Project/">Cooking
+                                                            With
+                                                            Sass</a>
+                                                </div>
                                           </div>
                                     </div>
-                                    <div class="card">
-                                          <div class="card-image waves-effect waves-block waves-light">
-                                                <img class="activator" src="assets/Code Quiz.jpg">
-                                          </div>
-                                          <div class="card-content">
-                                                <span class="card-title activator grey-text text-darken-4">Coding Quiz<i
-                                                            class="material-icons right">more_vert</i></span>
-                                          </div>
-                                          <div class="card-reveal">
-                                                <span class="card-title grey-text text-darken-4">Description<i
-                                                            class="material-icons right">close</i></span>
-                                                <p>The goal of this project was to make a web based quiz that generates
-                                                      a score based on how much time is left, and correct answers. The
-                                                      users score is penalized by a constant for each question plus a
-                                                      factor of the time remaining. </p>
-                                                <a class="waves-effect waves-light btn"
-                                                      href="https://mcheering.github.io/Code-Quiz/">Coding Quiz</a>
+                                    <div class="col  s9 m4 l3 cardPosition">
+                                          <div class="card ">
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                      <img class="activator" src="assets/weathermap.jpg"
+                                                            alt="weathermap thumbnail">
+                                                </div>
+                                                <div class="card-content">
+                                                      <span class="card-title activator grey-text text-darken-4">Weather
+                                                            Dashboard<i
+                                                                  class="material-icons right">more_vert</i></span>
+                                                </div>
+                                                <div class="card-reveal">
+                                                      <span class="card-title grey-text text-darken-4">Description<i
+                                                                  class="material-icons right">close</i></span>
+                                                      <p>This web app uses the openweathermap API to provide current
+                                                            weather
+                                                            and a 5 day forecast to the user.</p>
+                                                      <a class="waves-effect waves-light btn"
+                                                            href="https://mcheering.github.io/Weather-Dashboard/">Weather
+                                                            Dashboard</a>
+                                                </div>
                                           </div>
                                     </div>
-
+                                    <div class="col  s9 m4 l3 cardPosition">
+                                          <div class="card">
+                                                <div class="card-image waves-effect waves-block waves-light">
+                                                      <img class="activator" src="assets/Code_Quiz.jpg"
+                                                            alt="code quiz thumbnail">
+                                                </div>
+                                                <div class="card-content">
+                                                      <span class="card-title activator grey-text text-darken-4">Coding
+                                                            Quiz<i class="material-icons right">more_vert</i></span>
+                                                </div>
+                                                <div class="card-reveal">
+                                                      <span class="card-title grey-text text-darken-4">Description<i
+                                                                  class="material-icons right">close</i></span>
+                                                      <p>The goal of this project was to make a web based quiz that
+                                                            generates
+                                                            a score based on how much time is left, and correct answers.
+                                                            The
+                                                            users score is penalized by a constant for each question
+                                                            plus a
+                                                            factor of the time remaining. </p>
+                                                      <a class="waves-effect waves-light btn"
+                                                            href="https://mcheering.github.io/Code-Quiz/">Coding
+                                                            Quiz</a>
+                                                </div>
+                                          </div>
+                                    </div>
                               </div>
 
                         </div>
@@ -257,7 +276,8 @@
                                                 href="https://www.linkedin.com/in/matthew-heering-70525998/">LinkedIn
                                           </a><i class="fab fa-linkedin"></i>
                                     </li>
-                                    <li><a class="white-text" href="#!">Resume </a><i class="far fa-file"></i></li>
+                                    <li><a class="white-text" href="assets/Full_Stack_Web_Dev_Resume.pdf"
+                                                download>Resume </a><i class="far fa-file"></i></li>
                                     <li><a class="white-text" href="https://twitter.com/matthew_heering">Twitter </a><i
                                                 class="fab fa-twitter"></i></li>
                                     <li><a class="white-text"

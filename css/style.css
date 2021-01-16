@@ -58,10 +58,27 @@ p {
   #imageLogo{
     margin: 0.8rem 0 0 0;
   }
-    #projects{
+  .projectCards {
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
+  }
+.cardPosition {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+}
+
+@media only screen and (max-width : 992) {
+  .projectCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .cardPosition {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -69,33 +86,28 @@ p {
   #imageLogo{
     margin: auto;
   }
-  #projects{
-    display: flex;
-    justify-content: space-between !important;
-    flex-direction: column;
-    margin: 0 auto;
-  }
-  .card {
-    margin: 2rem auto;
-  }
 }
 
-@media only screen and (max-width : 846px) {
+@media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
   #imageLogo{
     margin: 0.6rem 0 0 0;
   }
-      #projects{
+    .projectCards {
     display: flex;
-    justify-content: space-between !important;
     flex-direction: column;
-    margin: 0 auto;
+    justify-content: space-between;
   }
-  .card {
-    margin: 2rem auto;
+  .cardPosition {
+    margin-right: auto;
+    margin-left: auto;
   }
+
+
+
+  
 }
 
 .icon-block {
